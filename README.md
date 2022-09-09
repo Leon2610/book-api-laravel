@@ -18,6 +18,20 @@ Once you have the above you can execute the commands to start the application:
 git clone the project
 
 ```cd BookAPI```
+
+This install all the dependencies for the project:
+
+```composer install```
+
+The next is to create the .env file based in the .env.example file:
+
+```cp .env.example .env```
+
+It's necesary to generate the APP_KEY for Laravel:
+
+```php artisan key:generate```
+
+Run the server:
  
 ```php artisan serve```
 
@@ -39,6 +53,6 @@ POST   /api/books
 PUT   /api/books/id
 @body: title, description, url, year, available
 
-DELETE  /api/books/:id
+DELETE  /api/books/id
 ```
 
