@@ -39,6 +39,6 @@ POST   /api/books
 PUT   /api/books/id
 @body: title, description, url, year, available
 
-DELETE  /api/books/:id
+DELETE  /api/books/id
 ```
 
