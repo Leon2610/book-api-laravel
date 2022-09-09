@@ -2,20 +2,6 @@
 
 This is a REST API made with Laravel 9.
 
-## Requirements
-
-To start the application you can do it in 2 ways: Have a docker container or run the application through php and composer.
-
-### Running with Docker from Linux:
-
-git clone the project
-
-```cd BookAPI```
- 
-```./vendor/bin/sail up```
-
-With the above the application is running on http://localhost/
-
 ### Execution through PHP and composer:
 
 Necessary to have installed on the computer:
